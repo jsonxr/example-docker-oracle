@@ -14,6 +14,5 @@ CREATE TABLE hr.existing_table (
          comm       NUMBER(7,2),
          deptno     NUMBER(3) NOT NULL
                      CONSTRAINT admin_dept_fkey REFERENCES hr.departments
-                     (department_id))
-
+                     (department_id));
 
