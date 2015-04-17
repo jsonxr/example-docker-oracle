@@ -16,7 +16,7 @@ DESCRIPTION VARCHAR(255) NOT NULL
 );
 
 ALTER TABLE ${changelog}
-ADD CONSTRAINT PK_${changelog}
+ADD CONSTRAINT ${pk_changelog}
 PRIMARY KEY (id);
 
 -- //@UNDO
